@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinesThoughts</string>
+    <string name="line_source_hint">台词出处</string>
+    <string name="line_hint">台词内容</string>
+    <string name="thought_hint">一点感悟</string>
+    <string name="scene_label">场景回溯</string>
+    <string name="thought_unfinished_label">未完</string>
+</resources>

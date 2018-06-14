@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/line_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/line_source_hint"/>
+    <EditText
+        android:id="@+id/line_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/line_hint"/>
+    <EditText
+        android:id="@+id/thought_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/thought_hint"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scene_label"/>
+    <Button
+        android:id="@+id/thought_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/thought_unfinished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thought_unfinished_label"/>
+</LinearLayout>
